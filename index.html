@@ -85,7 +85,7 @@
         <li><a href="#cherry" class="hover:text-pink-400">Cherry Grove</a></li>
         <li><a href="#faq" class="hover:text-purple-400">FAQ</a></li>
       </ul>
-            <button id="menu-btn" class="md:hidden focus:outline-none">
+      <button id="menu-btn" class="md:hidden focus:outline-none">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-gray-100" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                 d="M4 6h16M4 12h16M4 18h16" />
@@ -103,106 +103,145 @@
       </ul>
     </div>
   </nav>
-  <main class="container mx-auto px-4 mt-6 space-y-24">
-    <section id="forest" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('plain2.webp');">
-      <h1 class="text-4xl md:text-6xl mb-4 animate-bounce" style="font-family: 'MinecraftBold', sans-serif; color: #d9f99d;">
-         Forest Biome
-      </h1>
-      <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
-        Dive into the lush and vibrant forests filled with towering trees, wildlife, and endless exploration opportunities.
-      </p>
-      <div class="particle leaf left-1/4 top-0"></div>
-      <div class="particle leaf left-1/2 top-0 delay-1"></div>
-      <div class="particle leaf left-3/4 top-0 delay-2"></div>
-    </section>
-    <section id="desert" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('desert.webp');">
-      <h1 class="text-4xl md:text-6xl mb-4 animate-pulse" style="font-family: 'MinecraftBold', sans-serif; color: #facc15;">
-         Desert Biome
-      </h1>
-      <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
-        Experience the hot, dry deserts with massive sand dunes, ancient ruins, and hidden treasures waiting to be uncovered.
-      </p>
-      <div class="particle sand left-1/4 top-0"></div>
-      <div class="particle sand left-1/2 top-0 delay-1"></div>
-      <div class="particle sand left-3/4 top-0 delay-2"></div>
-    </section>
-    <section id="snow" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('snowy.avif');">
-      <h1 class="text-4xl md:text-6xl mb-4 animate-bounce" style="font-family: 'MinecraftBold', sans-serif; color: #bfdbfe;">
-         Snow Biome
-      </h1>
-      <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
-        Feel the chill of snowy plains blanketed with frost and discover hidden igloos, frozen lakes, and mysterious wildlife.
-      </p>
-      <div class="particle snow left-1/4 top-0"></div>
-      <div class="particle snow left-1/2 top-0 delay-1"></div>
-      <div class="particle snow left-3/4 top-0 delay-2"></div>
-    </section>
-    <section id="nether" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('nether.png');">
-      <h1 class="text-4xl md:text-6xl mb-4 animate-bounce" style="font-family: 'MinecraftBold', sans-serif; color: #fca5a5;">
-         Nether Biome
-      </h1>
-      <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
-        Enter the fiery Nether, a realm of danger and lava seas filled with hostile mobs and rare resources.
-      </p>
-      <div class="particle spark left-1/4" style="top: 100%;"></div>
-      <div class="particle spark left-1/2 delay-1" style="top: 100%;"></div>
-      <div class="particle spark left-3/4 delay-2" style="top: 100%;"></div>
-    </section>
-    <section id="cherry" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('cherry.webp');">
-      <h1 class="text-4xl md:text-6xl mb-4 animate-pulse" style="font-family: 'MinecraftBold', sans-serif; color: #f9a8d4;">
-         Cherry Grove
-      </h1>
-      <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
-        Wander among beautiful blooming cherry trees and enjoy peaceful, serene vibes.
-      </p>
-      <div class="particle petal left-1/4 top-0"></div>
-      <div class="particle petal left-1/2 top-0 delay-1"></div>
-      <div class="particle petal left-3/4 top-0 delay-2"></div>
-    </section>
-    <section id="faq" class="max-w-4xl mx-auto bg-gray-800 rounded-lg shadow-lg p-8 mb-12">
-      <h2 class="text-3xl font-bold mb-6" style="font-family: 'MinecraftBold', sans-serif;">Frequently Asked Questions</h2>
-  <div class="space-y-4">
-        <div class="bg-gray-700 rounded-lg p-4 cursor-pointer" data-accordion="false" tabindex="0" aria-expanded="false">
-          <div class="flex justify-between items-center">
-            <h3 class="text-xl font-semibold" style="font-family: 'MinecraftRegular', sans-serif;">What is a Minecraft biome?</h3>
-            <span class="icon text-2xl font-bold select-none">+</span>
-          </div>
-          <p class="mt-3 hidden" style="font-family: 'MinecraftRegular', sans-serif;">
-            Minecraft biomes are regions in the game world with distinct geography, climate, and resources.
-          </p>
-        </div>
-        <div class="bg-gray-700 rounded-lg p-4 cursor-pointer" data-accordion="false" tabindex="0" aria-expanded="false">
-          <div class="flex justify-between items-center">
-            <h3 class="text-xl font-semibold" style="font-family: 'MinecraftRegular', sans-serif;">Can I visit all biomes in one world?</h3>
-            <span class="icon text-2xl font-bold select-none">+</span>
-          </div>
-          <p class="mt-3 hidden" style="font-family: 'MinecraftRegular', sans-serif;">
-            Yes, biomes are spread across the Minecraft world and can be explored by traveling.
-          </p>
-        </div>
-        <div class="bg-gray-700 rounded-lg p-4 cursor-pointer" data-accordion="false" tabindex="0" aria-expanded="false">
-          <div class="flex justify-between items-center">
-            <h3 class="text-xl font-semibold" style="font-family: 'MinecraftRegular', sans-serif;">Are all biomes safe?</h3>
-            <span class="icon text-2xl font-bold select-none">+</span>
-          </div>
-          <p class="mt-3 hidden" style="font-family: 'MinecraftRegular', sans-serif;">
-            Some biomes like the Nether contain dangerous mobs, so be prepared before exploring.
-          </p>
-        </div>
+  <div class="container mx-auto px-4 mt-6 flex flex-col md:flex-row space-y-8 md:space-y-0 md:space-x-8">
+    <aside class="md:w-1/4 bg-gray-800 rounded-lg p-6 sticky top-20 h-fit">
+      <h2 class="text-2xl font-bold mb-6" style="font-family: 'MinecraftBold', sans-serif;">Explore Biomes</h2>
+      <nav class="flex flex-col space-y-3 text-lg">
+        <a href="#forest" class="hover:text-green-400">🌲 Forest</a>
+        <a href="#desert" class="hover:text-yellow-400">🏜️ Desert</a>
+        <a href="#snow" class="hover:text-blue-400">❄️ Snow</a>
+        <a href="#nether" class="hover:text-red-400">🔥 Nether</a>
+        <a href="#cherry" class="hover:text-pink-400">🌸 Cherry Grove</a>
+        <a href="#faq" class="hover:text-purple-400">❓ FAQ</a>
+      </nav>
+      <h2 class="text-2xl font-bold mt-10 mb-4" style="font-family: 'MinecraftBold', sans-serif;">Latest Blogs</h2>
+      <div class="flex flex-col space-y-4 text-gray-300">
+        <a href="#" class="hover:text-pink-400 font-semibold">How to Survive Your First Night</a>
+        <a href="#" class="hover:text-green-400 font-semibold">Top 5 Biomes to Explore</a>
+        <a href="#" class="hover:text-yellow-400 font-semibold">Building a Nether Portal</a>
       </div>
-    </section>
-</main>
-  <footer class="bg-gray-900 border-t border-gray-700 mt-12 p-6">
-    <div class="container mx-auto text-center text-gray-400">
-      <p>© 2025 Minecraft Biome Explorer | Made with ❤️ by a Minecraft fan</p>
-      <p class="mt-2">
-        <a href="#forest" class="hover:text-green-400 px-2">Forest</a> |
-        <a href="#desert" class="hover:text-yellow-400 px-2">Desert</a> |
-        <a href="#snow" class="hover:text-blue-400 px-2">Snow</a> |
-        <a href="#nether" class="hover:text-red-400 px-2">Nether</a> |
-        <a href="#cherry" class="hover:text-pink-400 px-2">Cherry Grove</a>
-      </p>
-    </div>
-  </footer>
+    </aside>
+    <main class="md:w-3/4 space-y-24">
+      <section id="forest" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('plain2.webp');">
+        <h1 class="text-4xl md:text-6xl mb-4 animate-bounce" style="font-family: 'MinecraftBold', sans-serif; color: #d9f99d;">
+           Forest Biome
+        </h1>
+        <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
+          Dive into the lush and vibrant forests filled with towering trees, wildlife, and endless exploration opportunities.
+        </p>
+        <div class="particle leaf left-1/4 top-0"></div>
+        <div class="particle leaf left-1/2 top-0 delay-1"></div>
+        <div class="particle leaf left-3/4 top-0 delay-2"></div>
+      </section>
+      <section id="desert" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('desert.webp');">
+        <h1 class="text-4xl md:text-6xl mb-4 animate-pulse" style="font-family: 'MinecraftBold', sans-serif; color: #facc15;">
+           Desert Biome
+        </h1>
+        <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
+          Experience the hot, dry deserts with massive sand dunes, ancient ruins, and hidden treasures waiting to be uncovered.
+        </p>
+        <div class="particle sand left-1/4 top-0"></div>
+        <div class="particle sand left-1/2 top-0 delay-1"></div>
+        <div class="particle sand left-3/4 top-0 delay-2"></div>
+      </section>
+      <section id="snow" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('snowy.avif');">
+        <h1 class="text-4xl md:text-6xl mb-4 animate-pulse" style="font-family: 'MinecraftBold', sans-serif; color: #60a5fa;">
+           Snow Biome
+        </h1>
+        <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
+          Wander through the icy lands covered with snow, frozen lakes, and snowy trees that sparkle under the moonlight.
+        </p>
+        <div class="particle snow left-1/4 top-0"></div>
+        <div class="particle snow left-1/2 top-0 delay-1"></div>
+        <div class="particle snow left-3/4 top-0 delay-2"></div>
+      </section>
+      <section id="nether" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('nether.png');">
+        <h1 class="text-4xl md:text-6xl mb-4 animate-pulse" style="font-family: 'MinecraftBold', sans-serif; color: #ef4444;">
+           Nether Biome
+        </h1>
+        <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
+          Enter the fiery Nether filled with lava lakes, dangerous mobs, and mysterious fortress structures.
+        </p>
+        <div class="particle spark left-1/4 top-0"></div>
+        <div class="particle spark left-1/2 top-0 delay-1"></div>
+        <div class="particle spark left-3/4 top-0 delay-2"></div>
+      </section>
+      <section id="cherry" class="relative bg-cover bg-center rounded-lg shadow-lg p-8 min-h-[80vh]" style="background-image: url('cherry.webp');">
+        <h1 class="text-4xl md:text-6xl mb-4 animate-pulse" style="font-family: 'MinecraftBold', sans-serif; color: #f472b6;">
+           Cherry Grove Biome
+        </h1>
+        <p class="text-lg md:text-xl max-w-3xl" style="font-family: 'MinecraftRegular', sans-serif;">
+          Enjoy the beautiful cherry blossom trees and peaceful pink landscapes that create a serene atmosphere.
+        </p>
+        <div class="particle petal left-1/4 top-0"></div>
+        <div class="particle petal left-1/2 top-0 delay-1"></div>
+        <div class="particle petal left-3/4 top-0 delay-2"></div>
+      </section>
+      <section id="faq" class="bg-gray-800 rounded-lg p-8 max-w-3xl mx-auto">
+        <h2 class="text-3xl font-bold mb-6" style="font-family: 'MinecraftBold', sans-serif;">Frequently Asked Questions</h2>
+        <dl class="space-y-6">
+          <div>
+            <dt class="font-semibold text-lg cursor-pointer flex justify-between items-center" data-accordion-open="false">
+              What are biomes in Minecraft?
+              <span class="icon text-2xl">+</span>
+            </dt>
+            <dd class="mt-2 hidden">
+              Biomes are different environmental regions in Minecraft that have unique terrain, plants, animals, and weather.
+            </dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-lg cursor-pointer flex justify-between items-center" data-accordion-open="false">
+              How do I find a specific biome?
+              <span class="icon text-2xl">+</span>
+            </dt>
+            <dd class="mt-2 hidden">
+              You can explore the world or use maps and seeds to locate biomes. Some mods also help in finding biomes.
+            </dd>
+          </div>
+          <div>
+            <dt class="font-semibold text-lg cursor-pointer flex justify-between items-center" data-accordion-open="false">
+              Can I build anything special in different biomes?
+              <span class="icon text-2xl">+</span>
+            </dt>
+            <dd class="mt-2 hidden">
+              Yes! Different biomes inspire different builds and aesthetics. For example, a snowy castle or a desert temple.
+            </dd>
+          </div>
+        </dl>
+      </section>
+      <section id="blog" class="mt-20">
+        <h2 class="text-4xl font-bold mb-10" style="font-family: 'MinecraftBold', sans-serif;">Minecraft Blog</h2>
+        <div class="grid gap-8 md:grid-cols-2">
+          <article class="bg-gray-800 rounded-lg p-6 shadow hover:shadow-lg transition-shadow">
+            <h3 class="text-2xl font-semibold mb-3 hover:text-pink-400 cursor-pointer">Top 10 Tips for New Players</h3>
+            <p class="text-gray-300">
+              Just started playing Minecraft? Discover the best tips to survive your first night and thrive in the world of blocks.
+            </p>
+            <a href="#" class="mt-4 inline-block text-pink-400 hover:underline">Read more &rarr;</a>
+          </article>
+
+          <article class="bg-gray-800 rounded-lg p-6 shadow hover:shadow-lg transition-shadow">
+            <h3 class="text-2xl font-semibold mb-3 hover:text-green-400 cursor-pointer">Exploring the Nether: What to Expect</h3>
+            <p class="text-gray-300">
+              The Nether can be dangerous but rewarding. Learn how to prepare and what secrets to find in this fiery dimension.
+            </p>
+            <a href="#" class="mt-4 inline-block text-green-400 hover:underline">Read more &rarr;</a>
+          </article>
+
+          <article class="bg-gray-800 rounded-lg p-6 shadow hover:shadow-lg transition-shadow">
+            <h3 class="text-2xl font-semibold mb-3 hover:text-yellow-400 cursor-pointer">Building Your Dream Base</h3>
+            <p class="text-gray-300">
+              Tips and tricks to build the ultimate Minecraft base in any biome you love. From design to defense strategies.
+            </p>
+            <a href="#" class="mt-4 inline-block text-yellow-400 hover:underline">Read more &rarr;</a>
+          </article>
+        </div>
+      </section>
+
+    </main>
+  </div>
+  <footer class="bg-gray-800 text-gray-400 text-center py-6 mt-12">
+  <p style="font-family: 'MinecraftRegular', sans-serif;">© 2025 Minecraft Biome Explorer. All rights reserved.</p>
+</footer>
 </body>
 </html>
